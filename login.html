@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #body {
+            height: 100vh;
+            width: 100vw;
+            background-image: url("7w.jpg");
+            background-size: 100% 100%;
+            display: flex;
+        }
+
+        #login {
+            height: 40vh;
+            width: 30vw;
+            background-color: white;
+            text-align: center;
+            border-radius: 25px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+
+        }
+
+        .ipt {
+            height: 4vh;
+            width: 15vw;
+            border-radius: 20px;
+            padding: 5px;
+        }
+
+        button {
+            height: 8vh;
+            width: 10vw;
+            font-size: large;
+            border-radius: 25px;
+            background-color: black;
+            color: white;
+            font-weight: bolder;
+        }
+
+        button:hover{
+            color: black;
+            background-color: white;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div id="body">
+        <div id="login">
+            <h2><b>LOGIN</b></h2><br><br>
+            <b>USERNAME :</b> <input type="text" class="ipt"><br><br>
+            <b>PASSWORD :</b> <input type="password" class="ipt"><br><br>
+            <button>RESET</button>&nbsp;<button>SUBMIT</button>
+        </div>
+    </div>
+</body>
+</html>
